@@ -1,0 +1,34 @@
+diff --git a/node_modules/@kanaries/graphic-walker/dist/graphic-walker.es.js b/node_modules/@kanaries/graphic-walker/dist/graphic-walker.es.js
+index 3e90366..4a3ce4d 100644
+--- a/node_modules/@kanaries/graphic-walker/dist/graphic-walker.es.js
++++ b/node_modules/@kanaries/graphic-walker/dist/graphic-walker.es.js
+@@ -30651,29 +30651,6 @@ const CEe = (e) => x.createElement(JEe, { id: "kanaries-logo", className: Gc(e.c
+           o.setVisualConfig("limit", j);
+         } })
+       },
+-      {
+-        key: "painter",
+-        label: d.type === "error" ? f(`button.disabled_painter.${d.key}`) : f("button.painter"),
+-        icon: oNe,
+-        disabled: d.type === "error",
+-        onClick: () => {
+-          o.setShowPainter(!0);
+-        }
+-      },
+-      "-",
+-      {
+-        key: "kanaries",
+-        label: "kanaries docs",
+-        href: "https://docs.kanaries.net",
+-        // Kanaries brand info is not allowed to be removed or changed unless you are granted with special permission.
+-        icon: CEe,
+-        styles: {
+-          icon: {
+-            height: 20,
+-            width: "auto"
+-          }
+-        }
+-      }
+     ].filter(Boolean), K = FEe(O.filter((j) => typeof j == "string" || !i.includes(j.key)));
+     switch (o.config.geoms[0]) {
+       case "table":
