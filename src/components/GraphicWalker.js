@@ -4,7 +4,7 @@ import { useFetch } from '../utils/useFetch';
 
 function GraphicWalkerComponent() {
 
-  const [data] = useFetch('https://pub-2422ed4100b443659f588f2382cfc7b1.r2.dev/datasets/ds-students-service.json');
+  const data = useFetch('https://pub-2422ed4100b443659f588f2382cfc7b1.r2.dev/datasets/ds-students-service.json');
 
   const fields = data?.fields
   const dataSource = data?.dataSource

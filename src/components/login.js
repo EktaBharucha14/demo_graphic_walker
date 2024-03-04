@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TextField, Typography, Container, CssBaseline, Avatar } from '@mui/material';
-// import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import { Button, TextField, Typography, Container, CssBaseline } from '@mui/material';
 
 const Login = ({ handleLogin }) => {
   const [email, setEmail] = useState('');
