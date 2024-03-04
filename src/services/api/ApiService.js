@@ -26,9 +26,9 @@ const ApiService = {
   get: path => {
     return new Promise((resolve, reject) => {
       return AxiosService.get(baseUrl + path, {
-        headers: {
-          Authorization: 'Bearer ' + localStorage.getItem(authConfig.storageTokenKeyName)
-        }
+        // headers: {
+        //   Authorization: 'Bearer ' + localStorage.getItem(authConfig.storageTokenKeyName)
+        // }
       })
         .then(response => {
           return response.status === 200 ? resolve(response) : reject(response)
